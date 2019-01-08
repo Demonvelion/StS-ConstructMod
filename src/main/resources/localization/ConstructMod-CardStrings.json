@@ -1,42 +1,42 @@
 {
 	"construct:Strike_Gold": {
-		"NAME": "Strike",
-		"DESCRIPTION": "Cycle if Strength < 0. NL Deal !D! damage."
+		"NAME": "타격",
+		"DESCRIPTION": "힘이 0 보다 낮으면, Cycle 합니다. NL 피해를 !D! 줍니다."
 	},
 	"construct:Defend_Gold": {
 		"NAME": "Defend",
-		"DESCRIPTION": "Cycle if Dexterity < 0. NL Gain !B! Block."
+		"DESCRIPTION": "민첩이 0 보다 낮으면 Cycle 합니다. NL 방어도를 !B! 얻습니다."
 	},
 	"construct:HeatedStrike": {
-		"NAME": "Heated Strike",
+		"NAME": "과열된 타격",
 		"DESCRIPTION": "[#ff9900]OVERHEAT: [#ff9900]< !construct:O! [#ff9900]> NL Cycle if Strength < 0. NL Deal !D! damage."
 	},
 	"construct:HeatedDefend": {
-		"NAME": "Heated Defend",
+		"NAME": "과열된 수비",
 		"DESCRIPTION": "[#ff9900]OVERHEAT: [#ff9900]< !construct:O! [#ff9900]> NL Cycle if Dexterity < 0. NL Gain !B! Block."
 	},
 	"construct:AttackMode": {
-		"NAME": "Attack Mode",
-		"DESCRIPTION": "Retain. NL Gain !M! Strength. NL Lose !M! Dexterity.",
+		"NAME": "공격 모드",
+		"DESCRIPTION": "보존. NL 힘을 !M! 얻습니다. NL 민첩을 !M! 잃습니다.",
 		"EXTENDED_DESCRIPTION": [
-			"(Cycle if Dexterity < 0.) NL "
+			"(민첩이 0 보다 낮으면 Cycle 합니다.) NL "
 		]
 	},
 	"construct:DefenseMode": {
-		"NAME": "Defense Mode",
-		"DESCRIPTION": "Retain. NL Gain !M! Dexterity. NL Lose !M! Strength.",
+		"NAME": "방어 모드",
+		"DESCRIPTION": "보존. NL 민첩을 !M! 얻습니다. NL 힘을 !M! 잃습니다.",
 		"EXTENDED_DESCRIPTION": [
-			"(Cycle if Strength < 0.) NL "
+			"(힘이 0 보다 낮으면 Cycle 합니다.) NL "
 		]
 	},
 	"construct:ScrapCannon": {
-		"NAME": "Scrap Cannon",
-		"DESCRIPTION": "Deal !D! damage. NL Exhaust !M! card.",
-		"UPGRADE_DESCRIPTION": "Deal !D! damage. NL Exhaust up to !M! cards."
+		"NAME": "고철 발사기",
+		"DESCRIPTION": "피해를 !D! 줍니다. NL 카드를 !M! 장 소멸시킵니다.",
+		"UPGRADE_DESCRIPTION": "피해를 !D! 줍니다. NL 카드를 !M! 장까지 소멸시킵니다."
 	},
 	"construct:Reinforce": {
-		"NAME": "Reinforce",
-		"DESCRIPTION": "Gain !B! Block !M! times."
+		"NAME": "보강",
+		"DESCRIPTION": "방어도를 !B! 만큼 !M! 번 얻습니다."
 	},
 	"construct:HyperBeam": {
 		"NAME": "Hyper Beam",
