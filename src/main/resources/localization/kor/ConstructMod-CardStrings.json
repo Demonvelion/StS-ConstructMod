@@ -1,32 +1,32 @@
 {
 	"construct:Strike_Gold": {
 		"NAME": "타격",
-		"DESCRIPTION": "힘 이 #b0 보다 #r낮으면, 사이클 합니다. NL 피해를 !D! 줍니다."
+		"DESCRIPTION": "힘 이 0 보다 낮으면, 사이클 합니다. NL 피해를 !D! 줍니다."
 	},
 	"construct:Defend_Gold": {
 		"NAME": "수비",
-		"DESCRIPTION": "민첩 이 #b0 보다 #r낮으면 사이클 합니다. NL 방어도 를 !B! 얻습니다."
+		"DESCRIPTION": "민첩 이 0 보다 낮으면 사이클 합니다. NL 방어도 를 !B! 얻습니다."
 	},
 	"construct:HeatedStrike": {
 		"NAME": "과열 중인 타격",
-		"DESCRIPTION": "[#ff9900]과열: [#ff9900]< !construct:O! [#ff9900]> NL 힘 이 #b0 보다 #r낮으면 사이클 합니다. NL 피해를 !D! 줍니다."
+		"DESCRIPTION": "[#ff9900]과열: [#ff9900]< !construct:O! [#ff9900]> NL 힘 이 0 보다 낮으면 사이클 합니다. NL 피해를 !D! 줍니다."
 	},
 	"construct:HeatedDefend": {
 		"NAME": "과열 중인 수비",
-		"DESCRIPTION": "[#ff9900]과열: [#ff9900]< !construct:O! [#ff9900]> NL 민첩 이 #b0 보다 #r낮으면 사이클 합니다. NL 피해를 !B! 줍니다."
+		"DESCRIPTION": "[#ff9900]과열: [#ff9900]< !construct:O! [#ff9900]> NL 민첩 이 0 보다 낮으면 사이클 합니다. NL 피해를 !B! 줍니다."
 	},
 	"construct:AttackMode": {
 		"NAME": "공격 모드",
 		"DESCRIPTION": "보존. NL 힘 을 !M! 얻습니다. NL 민첩 을 !M! 잃습니다.",
 		"EXTENDED_DESCRIPTION": [
-			"(민첩 이 #b0 보다 #r낮으면 사이클 합니다.) NL "
+			"(민첩 이 0 보다 낮으면 사이클 합니다.) NL "
 		]
 	},
 	"construct:DefenseMode": {
 		"NAME": "수비 모드",
 		"DESCRIPTION": "보존. NL 민첩 을 !M! 얻습니다. NL 힘 을 !M! 잃습니다.",
 		"EXTENDED_DESCRIPTION": [
-			"(힘 이 #b0 보다 #r낮으면 사이클 합니다.) NL "
+			"(힘 이 0 보다 낮으면 사이클 합니다.) NL "
 		]
 	},
 	"construct:ScrapCannon": {
@@ -68,7 +68,7 @@
 	},
 	"construct:ChargeShot": {
 		"NAME": "충전 사격",
-		"DESCRIPTION": "보존. 피해를 !D! 줍니다, 보존 되면 피해가 !M! 증가합니다. 사용하면 피해량이 #b초기화 됩니다."
+		"DESCRIPTION": "보존. 피해를 !D! 줍니다, 보존 되면 피해가 !M! 증가합니다. 사용하면 피해량이 초기화 됩니다."
 	},
 	"construct:Boost": {
 		"NAME": "발진",
@@ -77,64 +77,64 @@
 	},
 	"construct:GoldenBullet": {
 		"NAME": "금도금된 총탄",
-		"DESCRIPTION": "#y골드 를 !M! 잃습니다. NL 피해를 !D! 줍니다."
+		"DESCRIPTION": "골드 를 !M! 잃습니다. NL 피해를 !D! 줍니다."
 	},
 	"construct:ElectricArmor": {
 		"NAME": "전기장 장갑",
-		"DESCRIPTION": "민첩 이 #b1 보다 #r낮으면 사이클 합니다. NL 이번 턴에 적의 공격을 받으면, 민첩 수치 만큼만 피해를 받습니다.",
-		"UPGRADE_DESCRIPTION": "민첩 이 #b1 보다 #r낮으면 사이클 합니다. NL 이번 턴과 다음 턴에 적의 공격을 받으면, 민첩 수치 만큼만 피해를 받습니다."
+		"DESCRIPTION": "민첩 이 1 보다 낮으면 사이클 합니다. NL 이번 턴에 적의 공격을 받으면, 민첩 수치 만큼만 피해를 받습니다.",
+		"UPGRADE_DESCRIPTION": "민첩 이 1 보다 낮으면 사이클 합니다. NL 이번 턴과 다음 턴에 적의 공격을 받으면, 민첩 수치 만큼만 피해를 받습니다."
 	},
 	"construct:FlameCore": {
 		"NAME": "화염코어",
-		"DESCRIPTION": "사이클. 사이클 #b효과: NL 무작위 적에게 NL 피해를 !M! 줍니다.",
-		"UPGRADE_DESCRIPTION": " NL #g화염코어 1 장을 버린 카드 더미에 넣습니다.",
+		"DESCRIPTION": "사이클. NL 사이클 효과: NL 무작위 적에게 피해를 !M! 줍니다.",
+		"UPGRADE_DESCRIPTION": " NL 화염코어 1 장을 버린 카드 더미에 넣습니다.",
 		"EXTENDED_DESCRIPTION": [
-			" NL #g화염코어 1 장을 버린 카드 더미에 넣습니다."
+			" NL 화염코어 1 장을 버린 카드 더미에 넣습니다."
 		]
 	},
 	"construct:LaserCore": {
 		"NAME": "레이저코어",
-		"DESCRIPTION": "사이클. 사이클 #b효과: NL 모든 적에게 NL 피해를 !M! 줍니다.",
-		"UPGRADE_DESCRIPTION": " NL #g레이저코어 1 장을 버린 카드 더미에 넣습니다.",
+		"DESCRIPTION": "사이클. NL 사이클 효과: 모든 적에게 피해를 !M! 줍니다.",
+		"UPGRADE_DESCRIPTION": " NL 레이저코어 1 장을 버린 카드 더미에 넣습니다.",
 		"EXTENDED_DESCRIPTION": [
-			" NL #g레이저코어+ 1 장을 버린 카드 더미에 넣습니다."
+			" NL 레이저코어+ 1 장을 버린 카드 더미에 넣습니다."
 		]
 	},
 	"construct:GuardCore": {
 		"NAME": "경비코어",
-		"DESCRIPTION": "사이클. 사이클 #b효과: NL 방어도 를 !B! 얻습니다.",
-		"UPGRADE_DESCRIPTION": " NL #g경비코어 1 장을 버린 카드 더미에 넣습니다.",
+		"DESCRIPTION": "사이클. NL 사이클 효과: 방어도 를 !B! 얻습니다.",
+		"UPGRADE_DESCRIPTION": " NL 경비코어 1 장을 버린 카드 더미에 넣습니다.",
 		"EXTENDED_DESCRIPTION": [
-			" NL #g경비코어+ 1 장을 버린 카드 더미에 넣습니다."
+			" NL 경비코어+ 1 장을 버린 카드 더미에 넣습니다."
 		]
 	},
 	"construct:ScopeCore": {
 		"NAME": "관측코어",
-		"DESCRIPTION": "사이클. 사이클 #b효과: NL 무작위 적에게 취약 을 !M! 부여합니다.",
-		"UPGRADE_DESCRIPTION": " NL #g관찰코어 1 장을 버린 카드 더미에 넣습니다.",
+		"DESCRIPTION": "사이클. NL 사이클 효과: 무작위 적에게 취약 을 !M! 부여합니다.",
+		"UPGRADE_DESCRIPTION": " NL 관찰코어 1 장을 버린 카드 더미에 넣습니다.",
 		"EXTENDED_DESCRIPTION": [
-			" NL #g관찰코어+ 1 장을 버린 카드 더미에 넣습니다."
+			" NL 관찰코어+ 1 장을 버린 카드 더미에 넣습니다."
 		]
 	},
 	"construct:BatteryCore": {
 		"NAME": "배터리코어",
-		"DESCRIPTION": "사이클. 사이클 #b효과: NL 이번 턴에 손에 있는 카드 1 장의 비용이 !M! 감소합니다.",
+		"DESCRIPTION": "사이클. NL 사이클 효과: 이번 턴에 손에 있는 카드 1 장의 비용이 !M! 감소합니다.",
 		"UPGRADE_DESCRIPTION": " NL 배터리코어 1 장을 버린 카드 더미에 넣습니다.",
 		"EXTENDED_DESCRIPTION": [
-			" NL #g배터리코어+ 1 장을 버린 카드 더미에 넣습니다."
+			" NL 배터리코어+ 1 장을 버린 카드 더미에 넣습니다."
 		]
 	},
 	"construct:ForceCore": {
 		"NAME": "무력코어",
-		"DESCRIPTION": "사이클. 사이클 #b효과: NL 이번 턴 동안 힘 을 !M! 얻습니다.",
-		"UPGRADE_DESCRIPTION": " NL #g무력코어 1 장을 버린 카드 더미에 넣습니다.",
+		"DESCRIPTION": "사이클. NL 사이클 효과: 이번 턴 동안 힘 을 !M! 얻습니다.",
+		"UPGRADE_DESCRIPTION": " NL 무력코어 1 장을 버린 카드 더미에 넣습니다.",
 		"EXTENDED_DESCRIPTION": [
-			" NL #g무력코어 1 장을 버린 카드 더미에 넣습니다."
+			" NL 무력코어 1 장을 버린 카드 더미에 넣습니다."
 		]
 	},
 	"construct:Autoturret": {
 		"NAME": "자동화 터렛",
-		"DESCRIPTION": "카드가 사이클 되면, 무작위 적에게 피해를 !M! 줍니다."
+		"DESCRIPTION": "카드가 사이클 될 때마다 무작위 적에게 피해를 !M! 줍니다."
 	},
 	"construct:Electrocute": {
 		"NAME": "전기 충격",
@@ -142,16 +142,16 @@
 	},
 	"construct:CripplingShot": {
 		"NAME": "무력화 사격",
-		"DESCRIPTION": "피해를 !D! 줍니다. NL 방어도 에 막히지 않으면, 약화 를 #b99 부여합니다. 소멸.",
-		"UPGRADE_DESCRIPTION": "피해를 !D! 줍니다. NL 방어도 에 막히지 않으면, 약화 를 #b99 부여하고, 힘 을 #b2 감소시킵니다. 소멸."
+		"DESCRIPTION": "피해를 !D! 줍니다. NL 방어도 에 막히지 않으면, 약화 를 99 부여합니다. 소멸.",
+		"UPGRADE_DESCRIPTION": "피해를 !D! 줍니다. NL 방어도 에 막히지 않으면, 약화 를 99 부여하고, 힘 을 2 감소시킵니다. 소멸."
 	},
 	"construct:Backup": {
 		"NAME": "백업",
-		"DESCRIPTION": "손에서 #y희귀 등급이 아닌 카드를 선택합니다. !M! 장 복사하여 뽑을 카드 더미 맨 위에 넣습니다. NL 소멸.",
-		"UPGRADE_DESCRIPTION": "보존. NL 손에서 #y희귀 등급이 아닌 카드를 선택합니다. !M! 장 복사하여 뽑을 카드 더미 맨 위에 넣습니다. NL 소멸.",
+		"DESCRIPTION": "손에서 희귀 등급이 아닌 카드를 선택합니다. !M! 장 복사하여 뽑을 카드 더미 맨 위에 넣습니다. NL 소멸.",
+		"UPGRADE_DESCRIPTION": "보존. NL 손에서 희귀 등급이 아닌 카드를 선택합니다. !M! 장 복사하여 뽑을 카드 더미 맨 위에 넣습니다. NL 소멸.",
 		"EXTENDED_DESCRIPTION": [
 			"적당한 카드가 없다.",
-			"보존. NL 손에서 #y희귀 등급이 아닌 카드를 선택합니다. !M! 장 복사하여 뽑을 카드 더미 맨 위에 넣습니다."
+			"보존. NL 손에서 희귀 등급이 아닌 카드를 선택합니다. !M! 장 복사하여 뽑을 카드 더미 맨 위에 넣습니다."
 		]
 	},
 	"construct:SweepLaser": {
@@ -167,24 +167,24 @@
 	"construct:Versatility": {
 		"NAME": "유연성 프로토콜",
 		"DESCRIPTION": "적이 공격할 의도가 있다면, 방어도 를 !B! 얻습니다. 공격할 의도가 없다면, 피해를 !D! 줍니다.",
-		"UPGRADE_DESCRIPTION": " NL 카드를 #b2 장 뽑습니다."
+		"UPGRADE_DESCRIPTION": " NL 카드를 2 장 뽑습니다."
 	},
 	"construct:FlakBarrage": {
 		"NAME": "속사포",
 		"DESCRIPTION": "무작위 적에게 피해를 !D! 만큼 !M! 번 줍니다.",
-		"UPGRADE_DESCRIPTION": "힘이 #b1 보다 #r낮으면 사이클 합니다. NL  적에게 피해를 !D! 만큼 !M! 번 줍니다."
+		"UPGRADE_DESCRIPTION": "힘이 1 보다 낮으면 사이클 합니다. NL  적에게 피해를 !D! 만큼 !M! 번 줍니다."
 	},
 	"construct:MassProduction": {
 		"NAME": "대량생산",
-		"DESCRIPTION": "뽑을 카드 더미에서 #y희귀 등급이 아닌 카드를 선택합니다. 손의 카드를 모두 소멸 시키고, 소멸 시킨 만큼 복사해 가져옵니다. 소멸.",
+		"DESCRIPTION": "뽑을 카드 더미에서 희귀 등급이 아닌 카드를 선택합니다. 손의 카드를 모두 소멸 시키고, 소멸 시킨 만큼 복사해 가져옵니다. 소멸.",
 		"EXTENDED_DESCRIPTION": [
 			"적당한 카드가 없다."
 		]
 	},
 	"construct:Synchronize": {
 		"NAME": "동기화",
-		"DESCRIPTION": "같은 카드를 #b2 회 연속으로 뽑으면, 모든 적에게 피해를 !M! 줍니다.",
-		"UPGRADE_DESCRIPTION": "선천성. NL 같은 카드를 #b2 회 연속으로 뽑으면, 모든 적에게 피해를 !M! 줍니다."
+		"DESCRIPTION": "같은 카드를 2 회 연속으로 뽑으면, 모든 적에게 피해를 !M! 줍니다.",
+		"UPGRADE_DESCRIPTION": "선천성. NL 같은 카드를 2 회 연속으로 뽑으면, 모든 적에게 피해를 !M! 줍니다."
 	},
 	"construct:SiegeForm": {
 		"NAME": "섬멸전차",
@@ -192,10 +192,10 @@
 	},
 	"construct:HammerDown": {
 		"NAME": "최대출력",
-		"DESCRIPTION": "피해를 !D! 줍니다. NL 힘 과 민첩 이 #b2 배로 증가합니다.",
-		"UPGRADE_DESCRIPTION": "피해를 !D! 줍니다. NL 힘 과 민첩 이 #b2 배로 증가합니다.",
+		"DESCRIPTION": "피해를 !D! 줍니다. NL 힘 과 민첩 이 2 배로 증가합니다.",
+		"UPGRADE_DESCRIPTION": "피해를 !D! 줍니다. NL 힘 과 민첩 이 2 배로 증가합니다.",
 		"EXTENDED_DESCRIPTION": [
-			"피해를 !D! 줍니다. NL 힘 과 민첩 이 #b3 배로 증가합니다."
+			"피해를 !D! 줍니다. NL 힘 과 민첩 이 3 배로 증가합니다."
 		]
 	},
 	"construct:Enhance": {
@@ -231,7 +231,7 @@
 		"DESCRIPTION": "방어도 를 모두 잃습니다. NL 모든 적에게 잃은 방어도 의 1.5 배만큼 피해를 줍니다.",
 		"UPGRADE_DESCRIPTION": "방어도 를 모두 잃습니다. NL 모든 적에게 잃은 방어도 의 !M! 배만큼 피해를 줍니다.",
 		"EXTENDED_DESCRIPTION": [
-			" NL ( !D! 줍니다.)"
+			" NL ( 피해를 !D! 줍니다.)"
 		]
 	},
 	"construct:Antimatter": {
@@ -256,8 +256,8 @@
 	},
 	"construct:HastyRepair": {
 		"NAME": "긴급한 수리",
-		"DESCRIPTION": "체력을 !M! 회복합니다. NL 최대체력이 #r2 감소합니다. NL 소멸.",
-		"UPGRADE_DESCRIPTION": "체력을 !M! 회복합니다. NL 최대체력이 #r2 감소합니다. NL 손에 긴급한 수리 카드를 추가합니다. NL 소멸."
+		"DESCRIPTION": "체력을 !M! 회복합니다. NL 최대체력이 2 감소합니다. NL 소멸.",
+		"UPGRADE_DESCRIPTION": "체력을 !M! 회복합니다. NL 최대체력이 2 감소합니다. NL 손에 긴급한 수리 카드를 추가합니다. NL 소멸."
 	},
 	"construct:GatlingGun": {
 		"NAME": "게틀링건",
@@ -300,14 +300,14 @@
 		"NAME": "공격 집중",
 		"DESCRIPTION": "피해를 !D! 줍니다. NL 힘 을 !M! 얻습니다. NL 민첩 을 !M! 잃습니다.",
 		"EXTENDED_DESCRIPTION": [
-			"(민첩 이 #b0 보다 #r낮으면 사이클 합니다.) NL "
+			"(민첩 이 0 보다 낮으면 사이클 합니다.) NL "
 		]
 	},
 	"construct:ShiftGuard": {
 		"NAME": "수비 집중",
 		"DESCRIPTION": "방어도 를 !B! 얻습니다. NL 민첩 을 !M! 얻습니다. NL 힘 을 !M! 잃습니다.",
 		"EXTENDED_DESCRIPTION": [
-			"(힘 이 #b0 보다 #r낮으면 사이클 합니다.) NL "
+			"(힘 이 0 보다 낮으면 사이클 합니다.) NL "
 		]
 	},
 	"construct:Chainstrike": {
@@ -317,10 +317,10 @@
 	},
 	"construct:MemoryTap": {
 		"NAME": "기억 재구성",
-		"DESCRIPTION": "무작위 빨강, 초록, 파랑 카드를 손에 추가합니다. NL 이번 턴 동안 비용이 #b0 이 됩니다. NL 소멸.",
-		"UPGRADE_DESCRIPTION": "무작위 강화된 빨강, 초록, 파랑 카드를 손에 추가합니다. NL 이번 턴 동안 비용이 #b0 이 됩니다. NL 소멸.",
+		"DESCRIPTION": "무작위 빨강, 초록, 파랑 카드를 손에 추가합니다. NL 이번 턴 동안 비용이 0 이 됩니다. NL 소멸.",
+		"UPGRADE_DESCRIPTION": "무작위 강화된 빨강, 초록, 파랑 카드를 손에 추가합니다. NL 이번 턴 동안 비용이 0 이 됩니다. NL 소멸.",
 		"EXTENDED_DESCRIPTION": [
-			"무작위 빨강, 초록, 파랑 카드를 #b2 장씩 손에 추가합니다. NL 이번 턴 동안 비용이 #b0 이 됩니다. NL 소멸.",
+			"무작위 빨강, 초록, 파랑 카드를 2 장씩 손에 추가합니다. NL 이번 턴 동안 비용이 0 이 됩니다. NL 소멸.",
 		]
 	},
 	"construct:Construct_Overclock": {
@@ -360,7 +360,7 @@
 	},
 	"construct:Accumulate": {
 		"NAME": "축적",
-		"DESCRIPTION": "Deal !D! damage. NL Make a copy of a non-rare card in your draw pile.",
+		"DESCRIPTION": "피해를 !D! 줍니다. NL Make a copy of a non-rare card in your draw pile.",
 		"UPGRADE_DESCRIPTION": "Deal !D! damage. NL Make !M! copies of a non-rare card in your draw pile."
 	},
 	"construct:FocusedBeam": {
@@ -369,8 +369,8 @@
 		"EXTENDED_DESCRIPTION": ["피해를 !D! 줍니다. NL 카드를 1 장 뽑고, 뽑을 카드 더미 맨 위에 넣습니다."]
 	},
 	"construct:Tumble": {
-		"NAME": "ㅇ",
-		"DESCRIPTION": "카드를 !M! 장 뽑습니다. NL For each one that cycles, deal !D! damage."
+		"NAME": "순환 가속",
+		"DESCRIPTION": "카드를 !M! 장 뽑습니다. NL 사이클 된 카드 당, 피해를 !D! ."
 	},
 	"construct:Forcefield": {
 		"NAME": "포스필드",
